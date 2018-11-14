@@ -1,0 +1,21 @@
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate stub for <>f__AnonymousType0`3: type is sealed.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate stub for FlightsInfo.UnityConfig: type is sealed.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate stub for FlightsInfo.Services.AddResultStatus: type is a value type.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate stub for FlightsInfo.Services.EditResultStatus: type is a value type.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate stub for FlightsInfo.Services.RemoveResultStatus: type is a value type.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for <>f__AnonymousType0`3: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Repositories.FlighRepository+<>c__DisplayClass11_0: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Repositories.FlighRepository+<>c__DisplayClass12_0: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Repositories.IFlightRepository: type is an interface.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Services.IFlightService: type is an interface.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Services.AddResultStatus: type is an enum.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Services.EditResultStatus: type is an enum.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Services.RemoveResultStatus: type is an enum.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Helpers.IFlightDBContext: type is an interface.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Helpers.IFlightCalculator: type is an interface.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Controllers.FlightsController+<>o__5: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Controllers.FlightsController+<>o__6: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Controllers.FlightsController+<>o__7: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Controllers.FlightsController+<>o__8: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Controllers.HomeController+<>o__1: type is not supported because of internal limitations.
+C:\Users\Wissem\source\repos\Github\FlightsInfo\FlightsInfoTests\Fakes\FlightsInfo.fakes : warning : Cannot generate shim for FlightsInfo.Controllers.HomeController+<>o__2: type is not supported because of internal limitations.

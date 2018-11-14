@@ -1,0 +1,58 @@
+﻿@model FlightsInfo.Models.FlightToDisplay
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Flight</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Raw("Departure Airport")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DepartureAirportName, "Departure Airport")
+        </dd>
+
+        <dt>
+            @Html.Raw("Destination Airport")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestinationAirportName)
+        </dd>
+
+        <dt>
+            @Html.Raw("Aircraft Model")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AircraftName)
+        </dd>
+
+        <dt>
+            @Html.Raw("Distance (Km)")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Distance)
+        </dd>
+
+        <dt>
+            @Html.Raw("Fuel Consumption (L)")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FuelConsumption)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.FlightID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

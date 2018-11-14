@@ -1,0 +1,47 @@
+﻿@model IEnumerable<FlightsInfo.Models.FlightToDisplay>
+
+@{
+    ViewBag.Title = "Flights";
+}
+
+<h2>Flights</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.Raw("Departure Airport")
+        </th>
+        <th>
+            @Html.Raw("Destination Airport")
+        </th>
+        <th>
+            @Html.Raw("Aircraft Model")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartureAirportName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DestinationAirportName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AircraftName)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.FlightID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.FlightID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.FlightID })
+        </td>
+    </tr>
+}
+
+</table>

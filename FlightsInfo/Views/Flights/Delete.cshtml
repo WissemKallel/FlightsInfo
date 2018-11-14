@@ -1,0 +1,47 @@
+﻿@model FlightsInfo.Models.FlightToDisplay
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Flight</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Raw("Departure Airport")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DepartureAirportName)
+        </dd>
+
+        <dt>
+            @Html.Raw("Destination Airport")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestinationAirportName)
+        </dd>
+
+        <dt>
+            @Html.Raw("Aircraft Model")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AircraftName)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,1997 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlightsInfo.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FlightsInfo.Controllers.Fakes.ShimFlightsController">
+            <summary>Shim type of FlightsInfo.Controllers.FlightsController</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.#ctor(FlightsInfo.Controllers.FlightsController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.Create">
+            <summary>Sets the shim of FlightsController.Create()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.CreateFlightToDisplay">
+            <summary>Sets the shim of FlightsController.Create(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.DeleteConfirmedInt32">
+            <summary>Sets the shim of FlightsController.DeleteConfirmed(Int32 id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.DeleteNullableOfInt32">
+            <summary>Sets the shim of FlightsController.Delete(Nullable`1&lt;Int32&gt; id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.DetailsNullableOfInt32">
+            <summary>Sets the shim of FlightsController.Details(Nullable`1&lt;Int32&gt; id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of FlightsController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.EditFlightToDisplay">
+            <summary>Sets the shim of FlightsController.Edit(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.EditNullableOfInt32">
+            <summary>Sets the shim of FlightsController.Edit(Nullable`1&lt;Int32&gt; id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.Index">
+            <summary>Sets the shim of FlightsController.Index()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.AllInstances.Report">
+            <summary>Sets the shim of FlightsController.Report()</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.Web.Mvc.Filters.IAuthenticationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimFlightsController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.ConstructorIFlightService">
+            <summary>Sets the shim of FlightsController.FlightsController(IFlightService flightService)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.Create">
+            <summary>Sets the shim of FlightsController.Create()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.CreateFlightToDisplay">
+            <summary>Sets the shim of FlightsController.Create(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.DeleteConfirmedInt32">
+            <summary>Sets the shim of FlightsController.DeleteConfirmed(Int32 id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.DeleteNullableOfInt32">
+            <summary>Sets the shim of FlightsController.Delete(Nullable`1&lt;Int32&gt; id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.DetailsNullableOfInt32">
+            <summary>Sets the shim of FlightsController.Details(Nullable`1&lt;Int32&gt; id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.DisposeBoolean">
+            <summary>Sets the shim of FlightsController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.EditFlightToDisplay">
+            <summary>Sets the shim of FlightsController.Edit(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.EditNullableOfInt32">
+            <summary>Sets the shim of FlightsController.Edit(Nullable`1&lt;Int32&gt; id)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.Index">
+            <summary>Sets the shim of FlightsController.Index()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimFlightsController.Report">
+            <summary>Sets the shim of FlightsController.Report()</summary>
+        </member>
+        <member name="T:FlightsInfo.Controllers.Fakes.ShimHomeController">
+            <summary>Shim type of FlightsInfo.Controllers.HomeController</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.#ctor(FlightsInfo.Controllers.HomeController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.About">
+            <summary>Sets the shim of HomeController.About()</summary>
+        </member>
+        <member name="T:FlightsInfo.Controllers.Fakes.ShimHomeController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.AllInstances.About">
+            <summary>Sets the shim of HomeController.About()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.AllInstances.Contact">
+            <summary>Sets the shim of HomeController.Contact()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.AllInstances.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Filters.IAuthenticationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.ShimHomeController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.Constructor">
+            <summary>Sets the shim of HomeController.HomeController()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.Contact">
+            <summary>Sets the shim of HomeController.Contact()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.ShimHomeController.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="T:FlightsInfo.Controllers.Fakes.StubFlightsController">
+            <summary>Stub type of FlightsInfo.Controllers.FlightsController</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.#ctor(FlightsInfo.Services.IFlightService)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubFlightsController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubFlightsController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Dispose(System.Boolean)">
+            <summary>Sets the stub of FlightsController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.DisposeBoolean">
+            <summary>Sets the stub of FlightsController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.InitializeStub">
+            <summary>Initializes a new instance of type StubFlightsController</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubFlightsController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubFlightsController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnAuthentication(System.Web.Mvc.Filters.AuthenticationContext)">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnAuthenticationAuthenticationContext">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnAuthenticationChallenge(System.Web.Mvc.Filters.AuthenticationChallengeContext)">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnAuthenticationChallengeAuthenticationChallengeContext">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubFlightsController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubFlightsController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="T:FlightsInfo.Controllers.Fakes.StubHomeController">
+            <summary>Stub type of FlightsInfo.Controllers.HomeController</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubHomeController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubHomeController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.InitializeStub">
+            <summary>Initializes a new instance of type StubHomeController</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubHomeController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Controllers.Fakes.StubHomeController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnAuthentication(System.Web.Mvc.Filters.AuthenticationContext)">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnAuthenticationAuthenticationContext">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnAuthenticationChallenge(System.Web.Mvc.Filters.AuthenticationChallengeContext)">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnAuthenticationChallengeAuthenticationChallengeContext">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:FlightsInfo.Controllers.Fakes.StubHomeController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:FlightsInfo.Controllers.Fakes.StubHomeController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimBundleConfig">
+            <summary>Shim type of FlightsInfo.BundleConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimBundleConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimBundleConfig.#ctor(FlightsInfo.BundleConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimBundleConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimBundleConfig.Constructor">
+            <summary>Sets the shim of BundleConfig.BundleConfig()</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the shim of BundleConfig.RegisterBundles(BundleCollection bundles)</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimFilterConfig">
+            <summary>Shim type of FlightsInfo.FilterConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimFilterConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimFilterConfig.#ctor(FlightsInfo.FilterConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimFilterConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimFilterConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimFilterConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimFilterConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimFilterConfig.Constructor">
+            <summary>Sets the shim of FilterConfig.FilterConfig()</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimFilterConfig.RegisterGlobalFiltersGlobalFilterCollection">
+            <summary>Sets the shim of FilterConfig.RegisterGlobalFilters(GlobalFilterCollection filters)</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimMvcApplication">
+            <summary>Shim type of FlightsInfo.MvcApplication</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.#ctor(FlightsInfo.MvcApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimMvcApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimMvcApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimMvcApplication.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimMvcApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimMvcApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimMvcApplication.Constructor">
+            <summary>Sets the shim of MvcApplication.MvcApplication()</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimRouteConfig">
+            <summary>Shim type of FlightsInfo.RouteConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimRouteConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimRouteConfig.#ctor(FlightsInfo.RouteConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimRouteConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimRouteConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimRouteConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimRouteConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimRouteConfig.Constructor">
+            <summary>Sets the shim of RouteConfig.RouteConfig()</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimRouteConfig.RegisterRoutesRouteCollection">
+            <summary>Sets the shim of RouteConfig.RegisterRoutes(RouteCollection routes)</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.ShimUnityConfig">
+            <summary>Shim type of FlightsInfo.UnityConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimUnityConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimUnityConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.ShimUnityConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimUnityConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.ShimUnityConfig.RegisterComponents">
+            <summary>Sets the shim of UnityConfig.RegisterComponents()</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.StubBundleConfig">
+            <summary>Stub type of FlightsInfo.BundleConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubBundleConfig</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubBundleConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.StubFilterConfig">
+            <summary>Stub type of FlightsInfo.FilterConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubFilterConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubFilterConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubFilterConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubFilterConfig</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubFilterConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubFilterConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.StubMvcApplication">
+            <summary>Stub type of FlightsInfo.MvcApplication</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubMvcApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubMvcApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubMvcApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:FlightsInfo.Fakes.StubMvcApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubMvcApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:FlightsInfo.Fakes.StubMvcApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubMvcApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:FlightsInfo.Fakes.StubMvcApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubMvcApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:FlightsInfo.Fakes.StubMvcApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubMvcApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubMvcApplication</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubMvcApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubMvcApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Fakes.StubRouteConfig">
+            <summary>Stub type of FlightsInfo.RouteConfig</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubRouteConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubRouteConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Fakes.StubRouteConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubRouteConfig</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubRouteConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Fakes.StubRouteConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.ShimFlightCalculator">
+            <summary>Shim type of FlightsInfo.Helpers.FlightCalculator</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.#ctor(FlightsInfo.Helpers.FlightCalculator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.AllInstances.CalculateDistanceBetweenCoordinatesDoubleDoubleDoubleDouble">
+            <summary>Sets the shim of FlightCalculator.CalculateDistanceBetweenCoordinates(Double lat1, Double lon1, Double lat2, Double lon2)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.AllInstances.CalculateFlightFuelConsumptionAircraftDouble">
+            <summary>Sets the shim of FlightCalculator.CalculateFlightFuelConsumption(Aircraft aircraft, Double distanceInKm)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.AllInstances.DegreesToRadiansDouble">
+            <summary>Sets the shim of FlightCalculator.DegreesToRadians(Double degrees)</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.Bind(FlightsInfo.Helpers.IFlightCalculator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.CalculateDistanceBetweenCoordinatesDoubleDoubleDoubleDouble">
+            <summary>Sets the shim of FlightCalculator.CalculateDistanceBetweenCoordinates(Double lat1, Double lon1, Double lat2, Double lon2)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.CalculateFlightFuelConsumptionAircraftDouble">
+            <summary>Sets the shim of FlightCalculator.CalculateFlightFuelConsumption(Aircraft aircraft, Double distanceInKm)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.Constructor">
+            <summary>Sets the shim of FlightCalculator.FlightCalculator()</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimFlightCalculator.DegreesToRadiansDouble">
+            <summary>Sets the shim of FlightCalculator.DegreesToRadians(Double degrees)</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.ShimResult`1">
+            <summary>Shim type of FlightsInfo.Helpers.Result`1</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimResult`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimResult`1.#ctor(FlightsInfo.Helpers.Result{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.ShimResult`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.AllInstances.InfoGet">
+            <summary>Sets the shim of Result`1.get_Info()</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.AllInstances.InfoSetString">
+            <summary>Sets the shim of Result`1.set_Info(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.AllInstances.StatusGet">
+            <summary>Sets the shim of Result`1.get_Status()</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.AllInstances.StatusSetT0">
+            <summary>Sets the shim of Result`1.set_Status(!0 value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimResult`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.ShimResult`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.ConstructorT0">
+            <summary>Sets the shim of Result`1.Result`1(!0 Status)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.ConstructorT0String">
+            <summary>Sets the shim of Result`1.Result`1(!0 Status, String Info)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.InfoGet">
+            <summary>Sets the shim of Result`1.get_Info()</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.InfoSetString">
+            <summary>Sets the shim of Result`1.set_Info(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.StatusGet">
+            <summary>Sets the shim of Result`1.get_Status()</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.ShimResult`1.StatusSetT0">
+            <summary>Sets the shim of Result`1.set_Status(!0 value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.StubFlightCalculator">
+            <summary>Stub type of FlightsInfo.Helpers.FlightCalculator</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubFlightCalculator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubFlightCalculator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubFlightCalculator.InitializeStub">
+            <summary>Initializes a new instance of type StubFlightCalculator</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubFlightCalculator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubFlightCalculator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.StubIFlightCalculator">
+            <summary>Stub type of FlightsInfo.Helpers.IFlightCalculator</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightCalculator.#ctor">
+            <summary>Initializes a new instance of type StubIFlightCalculator</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightCalculator.CalculateDistanceBetweenCoordinatesDoubleDoubleDoubleDouble">
+            <summary>Sets the stub of IFlightCalculator.CalculateDistanceBetweenCoordinates(Double latitude1, Double longitude1, Double latitude2, Double longitude2)</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightCalculator.CalculateFlightFuelConsumptionAircraftDouble">
+            <summary>Sets the stub of IFlightCalculator.CalculateFlightFuelConsumption(Aircraft aircraft, Double distanceInKm)</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightCalculator.FlightsInfo#Helpers#IFlightCalculator#CalculateDistanceBetweenCoordinates(System.Double,System.Double,System.Double,System.Double)">
+            <summary>Sets the stub of IFlightCalculator.CalculateDistanceBetweenCoordinates(Double latitude1, Double longitude1, Double latitude2, Double longitude2)</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightCalculator.FlightsInfo#Helpers#IFlightCalculator#CalculateFlightFuelConsumption(FlightsInfo.Models.Aircraft,System.Double)">
+            <summary>Sets the stub of IFlightCalculator.CalculateFlightFuelConsumption(Aircraft aircraft, Double distanceInKm)</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.StubIFlightDBContext">
+            <summary>Stub type of FlightsInfo.Helpers.IFlightDBContext</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.#ctor">
+            <summary>Initializes a new instance of type StubIFlightDBContext</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsInfo#Helpers#IFlightDBContext#Aircrafts">
+            <summary>Sets the stub of IFlightDBContext.get_Aircrafts()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AircraftsGet">
+            <summary>Sets the stub of IFlightDBContext.get_Aircrafts()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AircraftsSetIDbSetOfAircraft">
+            <summary>Sets the stub of IFlightDBContext.set_Aircrafts(IDbSet`1&lt;Aircraft&gt; value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsInfo#Helpers#IFlightDBContext#Airports">
+            <summary>Sets the stub of IFlightDBContext.get_Airports()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AirportsGet">
+            <summary>Sets the stub of IFlightDBContext.get_Airports()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AirportsSetIDbSetOfAirport">
+            <summary>Sets the stub of IFlightDBContext.set_Airports(IDbSet`1&lt;Airport&gt; value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AttachBackingFieldToAircrafts">
+            <summary>Attaches delegates to emulate StubIFlightDBContext.Aircrafts as a property with a backing field.</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AttachBackingFieldToAirports">
+            <summary>Attaches delegates to emulate StubIFlightDBContext.Airports as a property with a backing field.</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.AttachBackingFieldToFlights">
+            <summary>Attaches delegates to emulate StubIFlightDBContext.Flights as a property with a backing field.</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.Dispose">
+            <summary>Sets the stub of IFlightDBContext.Dispose()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.EntryObject">
+            <summary>Sets the stub of IFlightDBContext.Entry(Object flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsInfo#Helpers#IFlightDBContext#Flights">
+            <summary>Sets the stub of IFlightDBContext.get_Flights()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsGet">
+            <summary>Sets the stub of IFlightDBContext.get_Flights()</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsInfo#Helpers#IFlightDBContext#Dispose">
+            <summary>Sets the stub of IFlightDBContext.Dispose()</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsInfo#Helpers#IFlightDBContext#Entry(System.Object)">
+            <summary>Sets the stub of IFlightDBContext.Entry(Object flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsInfo#Helpers#IFlightDBContext#SaveChanges">
+            <summary>Sets the stub of IFlightDBContext.SaveChanges()</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.FlightsSetIDbSetOfFlight">
+            <summary>Sets the stub of IFlightDBContext.set_Flights(IDbSet`1&lt;Flight&gt; value)</summary>
+        </member>
+        <member name="F:FlightsInfo.Helpers.Fakes.StubIFlightDBContext.SaveChanges">
+            <summary>Sets the stub of IFlightDBContext.SaveChanges()</summary>
+        </member>
+        <member name="T:FlightsInfo.Helpers.Fakes.StubResult`1">
+            <summary>Stub type of FlightsInfo.Helpers.Result`1</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubResult`1.#ctor(`0)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubResult`1.#ctor(`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubResult`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Helpers.Fakes.StubResult`1.InitializeStub">
+            <summary>Initializes a new instance of type StubResult</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubResult`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Helpers.Fakes.StubResult`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimAircraft">
+            <summary>Shim type of FlightsInfo.Models.Aircraft</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAircraft.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAircraft.#ctor(FlightsInfo.Models.Aircraft)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AircraftIDGet">
+            <summary>Sets the shim of Aircraft.get_AircraftID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AircraftIDSetInt32">
+            <summary>Sets the shim of Aircraft.set_AircraftID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AircraftNameGet">
+            <summary>Sets the shim of Aircraft.get_AircraftName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AircraftNameSetString">
+            <summary>Sets the shim of Aircraft.set_AircraftName(String value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AircraftIDGet">
+            <summary>Sets the shim of Aircraft.get_AircraftID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AircraftIDSetInt32">
+            <summary>Sets the shim of Aircraft.set_AircraftID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AircraftNameGet">
+            <summary>Sets the shim of Aircraft.get_AircraftName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AircraftNameSetString">
+            <summary>Sets the shim of Aircraft.set_AircraftName(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AverageConsumptionPerKmInLitreGet">
+            <summary>Sets the shim of Aircraft.get_AverageConsumptionPerKmInLitre()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AverageConsumptionPerKmInLitreSetDouble">
+            <summary>Sets the shim of Aircraft.set_AverageConsumptionPerKmInLitre(Double value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AverageTakeoffEffortInLitreGet">
+            <summary>Sets the shim of Aircraft.get_AverageTakeoffEffortInLitre()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AllInstances.AverageTakeoffEffortInLitreSetDouble">
+            <summary>Sets the shim of Aircraft.set_AverageTakeoffEffortInLitre(Double value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AverageConsumptionPerKmInLitreGet">
+            <summary>Sets the shim of Aircraft.get_AverageConsumptionPerKmInLitre()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AverageConsumptionPerKmInLitreSetDouble">
+            <summary>Sets the shim of Aircraft.set_AverageConsumptionPerKmInLitre(Double value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AverageTakeoffEffortInLitreGet">
+            <summary>Sets the shim of Aircraft.get_AverageTakeoffEffortInLitre()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.AverageTakeoffEffortInLitreSetDouble">
+            <summary>Sets the shim of Aircraft.set_AverageTakeoffEffortInLitre(Double value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAircraft.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAircraft.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAircraft.Constructor">
+            <summary>Sets the shim of Aircraft.Aircraft()</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimAirport">
+            <summary>Shim type of FlightsInfo.Models.Airport</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAirport.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAirport.#ctor(FlightsInfo.Models.Airport)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AirportIDGet">
+            <summary>Sets the shim of Airport.get_AirportID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AirportIDSetInt32">
+            <summary>Sets the shim of Airport.set_AirportID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AirportNameGet">
+            <summary>Sets the shim of Airport.get_AirportName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AirportNameSetString">
+            <summary>Sets the shim of Airport.set_AirportName(String value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimAirport.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.AirportIDGet">
+            <summary>Sets the shim of Airport.get_AirportID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.AirportIDSetInt32">
+            <summary>Sets the shim of Airport.set_AirportID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.AirportNameGet">
+            <summary>Sets the shim of Airport.get_AirportName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.AirportNameSetString">
+            <summary>Sets the shim of Airport.set_AirportName(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.LatitudeGet">
+            <summary>Sets the shim of Airport.get_Latitude()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.LatitudeSetDouble">
+            <summary>Sets the shim of Airport.set_Latitude(Double value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.LongitudeGet">
+            <summary>Sets the shim of Airport.get_Longitude()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.AllInstances.LongitudeSetDouble">
+            <summary>Sets the shim of Airport.set_Longitude(Double value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAirport.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimAirport.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.Constructor">
+            <summary>Sets the shim of Airport.Airport()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.LatitudeGet">
+            <summary>Sets the shim of Airport.get_Latitude()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.LatitudeSetDouble">
+            <summary>Sets the shim of Airport.set_Latitude(Double value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.LongitudeGet">
+            <summary>Sets the shim of Airport.get_Longitude()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimAirport.LongitudeSetDouble">
+            <summary>Sets the shim of Airport.set_Longitude(Double value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimFlight">
+            <summary>Shim type of FlightsInfo.Models.Flight</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlight.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlight.#ctor(FlightsInfo.Models.Flight)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AircraftIDGet">
+            <summary>Sets the shim of Flight.get_AircraftID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AircraftIDSetInt32">
+            <summary>Sets the shim of Flight.set_AircraftID(Int32 value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimFlight.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.AircraftIDGet">
+            <summary>Sets the shim of Flight.get_AircraftID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.AircraftIDSetInt32">
+            <summary>Sets the shim of Flight.set_AircraftID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.DepartureAirportIDGet">
+            <summary>Sets the shim of Flight.get_DepartureAirportID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.DepartureAirportIDSetInt32">
+            <summary>Sets the shim of Flight.set_DepartureAirportID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.DestinationAirportIDGet">
+            <summary>Sets the shim of Flight.get_DestinationAirportID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.DestinationAirportIDSetInt32">
+            <summary>Sets the shim of Flight.set_DestinationAirportID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.DistanceGet">
+            <summary>Sets the shim of Flight.get_Distance()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.DistanceSetString">
+            <summary>Sets the shim of Flight.set_Distance(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.FlightIDGet">
+            <summary>Sets the shim of Flight.get_FlightID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.FlightIDSetInt32">
+            <summary>Sets the shim of Flight.set_FlightID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.FuelConsumptionGet">
+            <summary>Sets the shim of Flight.get_FuelConsumption()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.AllInstances.FuelConsumptionSetString">
+            <summary>Sets the shim of Flight.set_FuelConsumption(String value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlight.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlight.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.Constructor">
+            <summary>Sets the shim of Flight.Flight()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.DepartureAirportIDGet">
+            <summary>Sets the shim of Flight.get_DepartureAirportID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.DepartureAirportIDSetInt32">
+            <summary>Sets the shim of Flight.set_DepartureAirportID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.DestinationAirportIDGet">
+            <summary>Sets the shim of Flight.get_DestinationAirportID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.DestinationAirportIDSetInt32">
+            <summary>Sets the shim of Flight.set_DestinationAirportID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.DistanceGet">
+            <summary>Sets the shim of Flight.get_Distance()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.DistanceSetString">
+            <summary>Sets the shim of Flight.set_Distance(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.FlightIDGet">
+            <summary>Sets the shim of Flight.get_FlightID()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.FlightIDSetInt32">
+            <summary>Sets the shim of Flight.set_FlightID(Int32 value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.FuelConsumptionGet">
+            <summary>Sets the shim of Flight.get_FuelConsumption()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlight.FuelConsumptionSetString">
+            <summary>Sets the shim of Flight.set_FuelConsumption(String value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimFlightDBContext">
+            <summary>Shim type of FlightsInfo.Models.FlightDBContext</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.#ctor(FlightsInfo.Models.FlightDBContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AircraftsGet">
+            <summary>Sets the shim of FlightDBContext.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AircraftsSetIDbSetOfAircraft">
+            <summary>Sets the shim of FlightDBContext.set_Aircrafts(IDbSet`1&lt;Aircraft&gt; value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AirportsGet">
+            <summary>Sets the shim of FlightDBContext.get_Airports()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AirportsSetIDbSetOfAirport">
+            <summary>Sets the shim of FlightDBContext.set_Airports(IDbSet`1&lt;Airport&gt; value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.AircraftsGet">
+            <summary>Sets the shim of FlightDBContext.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.AircraftsSetIDbSetOfAircraft">
+            <summary>Sets the shim of FlightDBContext.set_Aircrafts(IDbSet`1&lt;Aircraft&gt; value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.AirportsGet">
+            <summary>Sets the shim of FlightDBContext.get_Airports()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.AirportsSetIDbSetOfAirport">
+            <summary>Sets the shim of FlightDBContext.set_Airports(IDbSet`1&lt;Airport&gt; value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.FlightsGet">
+            <summary>Sets the shim of FlightDBContext.get_Flights()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.FlightsInfoHelpersIFlightDBContextEntryObject">
+            <summary>Sets the shim of FlightDBContext.FlightsInfo.Helpers.IFlightDBContext.Entry(Object flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.AllInstances.FlightsSetIDbSetOfFlight">
+            <summary>Sets the shim of FlightDBContext.set_Flights(IDbSet`1&lt;Flight&gt; value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.Bind(FlightsInfo.Helpers.IFlightDBContext)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightDBContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.Constructor">
+            <summary>Sets the shim of FlightDBContext.FlightDBContext()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.FlightsGet">
+            <summary>Sets the shim of FlightDBContext.get_Flights()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.FlightsInfoHelpersIFlightDBContextEntryObject">
+            <summary>Sets the shim of FlightDBContext.FlightsInfo.Helpers.IFlightDBContext.Entry(Object flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightDBContext.FlightsSetIDbSetOfFlight">
+            <summary>Sets the shim of FlightDBContext.set_Flights(IDbSet`1&lt;Flight&gt; value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimFlightToDisplay">
+            <summary>Shim type of FlightsInfo.Models.FlightToDisplay</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightToDisplay.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightToDisplay.#ctor(FlightsInfo.Models.FlightToDisplay)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AircraftNameGet">
+            <summary>Sets the shim of FlightToDisplay.get_AircraftName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AircraftNameSetString">
+            <summary>Sets the shim of FlightToDisplay.set_AircraftName(String value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances.AircraftNameGet">
+            <summary>Sets the shim of FlightToDisplay.get_AircraftName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances.AircraftNameSetString">
+            <summary>Sets the shim of FlightToDisplay.set_AircraftName(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances.DepartureAirportNameGet">
+            <summary>Sets the shim of FlightToDisplay.get_DepartureAirportName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances.DepartureAirportNameSetString">
+            <summary>Sets the shim of FlightToDisplay.set_DepartureAirportName(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances.DestinationAirportNameGet">
+            <summary>Sets the shim of FlightToDisplay.get_DestinationAirportName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.AllInstances.DestinationAirportNameSetString">
+            <summary>Sets the shim of FlightToDisplay.set_DestinationAirportName(String value)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightToDisplay.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.ShimFlightToDisplay.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.Constructor">
+            <summary>Sets the shim of FlightToDisplay.FlightToDisplay()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.DepartureAirportNameGet">
+            <summary>Sets the shim of FlightToDisplay.get_DepartureAirportName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.DepartureAirportNameSetString">
+            <summary>Sets the shim of FlightToDisplay.set_DepartureAirportName(String value)</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.DestinationAirportNameGet">
+            <summary>Sets the shim of FlightToDisplay.get_DestinationAirportName()</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.ShimFlightToDisplay.DestinationAirportNameSetString">
+            <summary>Sets the shim of FlightToDisplay.set_DestinationAirportName(String value)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.StubAircraft">
+            <summary>Stub type of FlightsInfo.Models.Aircraft</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubAircraft.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubAircraft.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubAircraft.InitializeStub">
+            <summary>Initializes a new instance of type StubAircraft</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubAircraft.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubAircraft.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.StubAirport">
+            <summary>Stub type of FlightsInfo.Models.Airport</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubAirport.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubAirport.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubAirport.InitializeStub">
+            <summary>Initializes a new instance of type StubAirport</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubAirport.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubAirport.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.StubFlight">
+            <summary>Stub type of FlightsInfo.Models.Flight</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlight.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlight.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlight.InitializeStub">
+            <summary>Initializes a new instance of type StubFlight</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlight.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlight.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.StubFlightDBContext">
+            <summary>Stub type of FlightsInfo.Models.FlightDBContext</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlightDBContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.InitializeStub">
+            <summary>Initializes a new instance of type StubFlightDBContext</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlightDBContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlightDBContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.Set(System.Type)">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.Set``1">
+            <summary>Sets the stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightDBContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:FlightsInfo.Models.Fakes.StubFlightDBContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="T:FlightsInfo.Models.Fakes.StubFlightToDisplay">
+            <summary>Stub type of FlightsInfo.Models.FlightToDisplay</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightToDisplay.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlightToDisplay.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Models.Fakes.StubFlightToDisplay.InitializeStub">
+            <summary>Initializes a new instance of type StubFlightToDisplay</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlightToDisplay.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Models.Fakes.StubFlightToDisplay.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Repositories.Fakes.ShimFlighRepository">
+            <summary>Shim type of FlightsInfo.Repositories.FlighRepository</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.ShimFlighRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.ShimFlighRepository.#ctor(FlightsInfo.Repositories.FlighRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AddFlightFlight">
+            <summary>Sets the shim of FlighRepository.AddFlight(Flight flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AircraftsGet">
+            <summary>Sets the shim of FlighRepository.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AirportsGet">
+            <summary>Sets the shim of FlighRepository.get_Airports()</summary>
+        </member>
+        <member name="T:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.AddFlightFlight">
+            <summary>Sets the shim of FlighRepository.AddFlight(Flight flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.AircraftsGet">
+            <summary>Sets the shim of FlighRepository.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.AirportsGet">
+            <summary>Sets the shim of FlighRepository.get_Airports()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.CheckFlightEntriesAlreadyExistFlightToDisplay">
+            <summary>Sets the shim of FlighRepository.CheckFlightEntriesAlreadyExist(FlightToDisplay flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.DisposeOfDataBase">
+            <summary>Sets the shim of FlighRepository.DisposeOfDataBase()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.EditFlightFlight">
+            <summary>Sets the shim of FlighRepository.EditFlight(Flight flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.FindAircraftInt32AircraftOut">
+            <summary>Sets the shim of FlighRepository.FindAircraft(Int32 id, Aircraft&amp; aircraft)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.FindAirportInt32AirportOut">
+            <summary>Sets the shim of FlighRepository.FindAirport(Int32 id, Airport&amp; airport)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.FindFlightInt32BooleanFlightOut">
+            <summary>Sets the shim of FlighRepository.FindFlight(Int32 id, Boolean noTracking, Flight&amp; flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.FlightsGet">
+            <summary>Sets the shim of FlighRepository.get_Flights()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.AllInstances.RemoveFlightInt32">
+            <summary>Sets the shim of FlighRepository.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.ShimFlighRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.ShimFlighRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.ShimFlighRepository.Bind(FlightsInfo.Repositories.IFlightRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.CheckFlightEntriesAlreadyExistFlightToDisplay">
+            <summary>Sets the shim of FlighRepository.CheckFlightEntriesAlreadyExist(FlightToDisplay flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.ConstructorIFlightDBContext">
+            <summary>Sets the shim of FlighRepository.FlighRepository(IFlightDBContext db)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.DisposeOfDataBase">
+            <summary>Sets the shim of FlighRepository.DisposeOfDataBase()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.EditFlightFlight">
+            <summary>Sets the shim of FlighRepository.EditFlight(Flight flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.FindAircraftInt32AircraftOut">
+            <summary>Sets the shim of FlighRepository.FindAircraft(Int32 id, Aircraft&amp; aircraft)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.FindAirportInt32AirportOut">
+            <summary>Sets the shim of FlighRepository.FindAirport(Int32 id, Airport&amp; airport)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.FindFlightInt32BooleanFlightOut">
+            <summary>Sets the shim of FlighRepository.FindFlight(Int32 id, Boolean noTracking, Flight&amp; flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.FlightsGet">
+            <summary>Sets the shim of FlighRepository.get_Flights()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.ShimFlighRepository.RemoveFlightInt32">
+            <summary>Sets the shim of FlighRepository.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="T:FlightsInfo.Repositories.Fakes.StubFlighRepository">
+            <summary>Stub type of FlightsInfo.Repositories.FlighRepository</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubFlighRepository.#ctor(FlightsInfo.Helpers.IFlightDBContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.StubFlighRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubFlighRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubFlighRepository</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.StubFlighRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.StubFlighRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Repositories.Fakes.StubIFlightRepository">
+            <summary>Stub type of FlightsInfo.Repositories.IFlightRepository</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.#ctor">
+            <summary>Initializes a new instance of type StubIFlightRepository</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.AddFlightFlight">
+            <summary>Sets the stub of IFlightRepository.AddFlight(Flight flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#Aircrafts">
+            <summary>Sets the stub of IFlightRepository.get_Aircrafts()</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.AircraftsGet">
+            <summary>Sets the stub of IFlightRepository.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#Airports">
+            <summary>Sets the stub of IFlightRepository.get_Airports()</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.AirportsGet">
+            <summary>Sets the stub of IFlightRepository.get_Airports()</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.CheckFlightEntriesAlreadyExistFlightToDisplay">
+            <summary>Sets the stub of IFlightRepository.CheckFlightEntriesAlreadyExist(FlightToDisplay flight)</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.DisposeOfDataBase">
+            <summary>Sets the stub of IFlightRepository.DisposeOfDataBase()</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.EditFlightFlight">
+            <summary>Sets the stub of IFlightRepository.EditFlight(Flight flight)</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FindAircraftInt32AircraftOut">
+            <summary>Sets the stub of IFlightRepository.FindAircraft(Int32 id, Aircraft&amp; aircraft)</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FindAirportInt32AirportOut">
+            <summary>Sets the stub of IFlightRepository.FindAirport(Int32 id, Airport&amp; airport)</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FindFlightInt32BooleanFlightOut">
+            <summary>Sets the stub of IFlightRepository.FindFlight(Int32 id, Boolean noTracking, Flight&amp; flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#Flights">
+            <summary>Sets the stub of IFlightRepository.get_Flights()</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsGet">
+            <summary>Sets the stub of IFlightRepository.get_Flights()</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#AddFlight(FlightsInfo.Models.Flight)">
+            <summary>Sets the stub of IFlightRepository.AddFlight(Flight flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#CheckFlightEntriesAlreadyExist(FlightsInfo.Models.FlightToDisplay)">
+            <summary>Sets the stub of IFlightRepository.CheckFlightEntriesAlreadyExist(FlightToDisplay flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#DisposeOfDataBase">
+            <summary>Sets the stub of IFlightRepository.DisposeOfDataBase()</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#EditFlight(FlightsInfo.Models.Flight)">
+            <summary>Sets the stub of IFlightRepository.EditFlight(Flight flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#FindAircraft(System.Int32,FlightsInfo.Models.Aircraft@)">
+            <summary>Sets the stub of IFlightRepository.FindAircraft(Int32 id, Aircraft&amp; aircraft)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#FindAirport(System.Int32,FlightsInfo.Models.Airport@)">
+            <summary>Sets the stub of IFlightRepository.FindAirport(Int32 id, Airport&amp; airport)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#FindFlight(System.Int32,System.Boolean,FlightsInfo.Models.Flight@)">
+            <summary>Sets the stub of IFlightRepository.FindFlight(Int32 id, Boolean noTracking, Flight&amp; flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Repositories.Fakes.StubIFlightRepository.FlightsInfo#Repositories#IFlightRepository#RemoveFlight(System.Int32)">
+            <summary>Sets the stub of IFlightRepository.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="F:FlightsInfo.Repositories.Fakes.StubIFlightRepository.RemoveFlightInt32">
+            <summary>Sets the stub of IFlightRepository.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="T:FlightsInfo.Services.Fakes.ShimFlightService">
+            <summary>Shim type of FlightsInfo.Services.FlightService</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.ShimFlightService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.ShimFlightService.#ctor(FlightsInfo.Services.FlightService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AddFlightFlightToDisplay">
+            <summary>Sets the shim of FlightService.AddFlight(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AircraftsGet">
+            <summary>Sets the shim of FlightService.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AirportsGet">
+            <summary>Sets the shim of FlightService.get_Airports()</summary>
+        </member>
+        <member name="T:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.AddFlightFlightToDisplay">
+            <summary>Sets the shim of FlightService.AddFlight(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.AircraftsGet">
+            <summary>Sets the shim of FlightService.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.AirportsGet">
+            <summary>Sets the shim of FlightService.get_Airports()</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.CalculateFlightInfoFlightToDisplayFlightOut">
+            <summary>Sets the shim of FlightService.CalculateFlightInfo(FlightToDisplay flightInput, Flight&amp; flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.CheckFlightEntriesChangedFlightBooleanOut">
+            <summary>Sets the shim of FlightService.CheckFlightEntriesChanged(Flight newflight, Boolean&amp; flightEntriesChanged)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.DisposeOfStorage">
+            <summary>Sets the shim of FlightService.DisposeOfStorage()</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.EditFlightFlightToDisplay">
+            <summary>Sets the shim of FlightService.EditFlight(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.GetFlightToDisplayInt32FlightToDisplayOut">
+            <summary>Sets the shim of FlightService.GetFlightToDisplay(Int32 flightID, FlightToDisplay&amp; flightToDisplay)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.GetFlightsToDisplayListOfFlightToDisplayOut">
+            <summary>Sets the shim of FlightService.GetFlightsToDisplay(List`1&lt;FlightToDisplay&gt;&amp; flightToDisplayList)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.AllInstances.RemoveFlightInt32">
+            <summary>Sets the shim of FlightService.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.ShimFlightService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.ShimFlightService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.ShimFlightService.Bind(FlightsInfo.Services.IFlightService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.CalculateFlightInfoFlightToDisplayFlightOut">
+            <summary>Sets the shim of FlightService.CalculateFlightInfo(FlightToDisplay flightInput, Flight&amp; flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.CheckFlightEntriesChangedFlightBooleanOut">
+            <summary>Sets the shim of FlightService.CheckFlightEntriesChanged(Flight newflight, Boolean&amp; flightEntriesChanged)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.ConstructorIFlightCalculatorIFlightRepository">
+            <summary>Sets the shim of FlightService.FlightService(IFlightCalculator flightCalculator, IFlightRepository flightRepository)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.DisposeOfStorage">
+            <summary>Sets the shim of FlightService.DisposeOfStorage()</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.EditFlightFlightToDisplay">
+            <summary>Sets the shim of FlightService.EditFlight(FlightToDisplay flightInput)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.GetFlightToDisplayInt32FlightToDisplayOut">
+            <summary>Sets the shim of FlightService.GetFlightToDisplay(Int32 flightID, FlightToDisplay&amp; flightToDisplay)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.GetFlightsToDisplayListOfFlightToDisplayOut">
+            <summary>Sets the shim of FlightService.GetFlightsToDisplay(List`1&lt;FlightToDisplay&gt;&amp; flightToDisplayList)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.ShimFlightService.RemoveFlightInt32">
+            <summary>Sets the shim of FlightService.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="T:FlightsInfo.Services.Fakes.StubFlightService">
+            <summary>Stub type of FlightsInfo.Services.FlightService</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubFlightService.#ctor(FlightsInfo.Helpers.IFlightCalculator,FlightsInfo.Repositories.IFlightRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.StubFlightService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubFlightService.InitializeStub">
+            <summary>Initializes a new instance of type StubFlightService</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.StubFlightService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.StubFlightService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FlightsInfo.Services.Fakes.StubIFlightService">
+            <summary>Stub type of FlightsInfo.Services.IFlightService</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.#ctor">
+            <summary>Initializes a new instance of type StubIFlightService</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.AddFlightFlightToDisplay">
+            <summary>Sets the stub of IFlightService.AddFlight(FlightToDisplay flight)</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#Aircrafts">
+            <summary>Sets the stub of IFlightService.get_Aircrafts()</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.AircraftsGet">
+            <summary>Sets the stub of IFlightService.get_Aircrafts()</summary>
+        </member>
+        <member name="P:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#Airports">
+            <summary>Sets the stub of IFlightService.get_Airports()</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.AirportsGet">
+            <summary>Sets the stub of IFlightService.get_Airports()</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.DisposeOfStorage">
+            <summary>Sets the stub of IFlightService.DisposeOfStorage()</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.EditFlightFlightToDisplay">
+            <summary>Sets the stub of IFlightService.EditFlight(FlightToDisplay flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#AddFlight(FlightsInfo.Models.FlightToDisplay)">
+            <summary>Sets the stub of IFlightService.AddFlight(FlightToDisplay flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#DisposeOfStorage">
+            <summary>Sets the stub of IFlightService.DisposeOfStorage()</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#EditFlight(FlightsInfo.Models.FlightToDisplay)">
+            <summary>Sets the stub of IFlightService.EditFlight(FlightToDisplay flight)</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#GetFlightToDisplay(System.Int32,FlightsInfo.Models.FlightToDisplay@)">
+            <summary>Sets the stub of IFlightService.GetFlightToDisplay(Int32 flightID, FlightToDisplay&amp; output)</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#GetFlightsToDisplay(System.Collections.Generic.List{FlightsInfo.Models.FlightToDisplay}@)">
+            <summary>Sets the stub of IFlightService.GetFlightsToDisplay(List`1&lt;FlightToDisplay&gt;&amp; flightToDisplayList)</summary>
+        </member>
+        <member name="M:FlightsInfo.Services.Fakes.StubIFlightService.FlightsInfo#Services#IFlightService#RemoveFlight(System.Int32)">
+            <summary>Sets the stub of IFlightService.RemoveFlight(Int32 id)</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.GetFlightToDisplayInt32FlightToDisplayOut">
+            <summary>Sets the stub of IFlightService.GetFlightToDisplay(Int32 flightID, FlightToDisplay&amp; output)</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.GetFlightsToDisplayListOfFlightToDisplayOut">
+            <summary>Sets the stub of IFlightService.GetFlightsToDisplay(List`1&lt;FlightToDisplay&gt;&amp; flightToDisplayList)</summary>
+        </member>
+        <member name="F:FlightsInfo.Services.Fakes.StubIFlightService.RemoveFlightInt32">
+            <summary>Sets the stub of IFlightService.RemoveFlight(Int32 id)</summary>
+        </member>
+    </members>
+</doc>

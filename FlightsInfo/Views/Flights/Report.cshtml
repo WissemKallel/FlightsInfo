@@ -1,0 +1,58 @@
+﻿@model IEnumerable<FlightsInfo.Models.FlightToDisplay>
+
+@{
+    ViewBag.Title = "Report";
+}
+
+<h2>Report</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.Raw("Departure Airport")
+        </th>
+        <th>
+            @Html.Raw("Destination Airport")
+        </th>
+        <th>
+            @Html.Raw("Aircraft Model")
+        </th>
+        <th>
+            @Html.Raw("Distance (Km)")
+        </th>
+        <th>
+            @Html.Raw("Fuel Consumption (L)")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartureAirportName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DestinationAirportName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AircraftName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Distance)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FuelConsumption)
+        </td>
+    </tr>
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,56 @@
+﻿@model FlightsInfo.Models.FlightToDisplay
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Flight</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.DepartureAirportID, "Departure Airport", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.DepartureAirportID, new SelectList(ViewBag.SelectableAirports, "AirportID", "AirportName"), "--Select Airport --")
+                @Html.ValidationMessageFor(model => model.DepartureAirportID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DestinationAirportID, "Destination Airport", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.DestinationAirportID, new SelectList(ViewBag.SelectableAirports, "AirportID", "AirportName"), " --Select Airport --")
+                @Html.ValidationMessageFor(model => model.DestinationAirportID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AircraftID, "Aircraft Model", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.AircraftID, new SelectList(ViewBag.SelectableAircrafts, "AircraftID", "AircraftName"), " --Select Aircaft --")
+                @Html.ValidationMessageFor(model => model.AircraftID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
