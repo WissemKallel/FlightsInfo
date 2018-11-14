@@ -7,3 +7,5 @@
 /FlightsInfo/bin
 /FlightsInfoTests/bin/Debug
 /packages
+/FlightsInfo/obj
+/FlightsInfoTests/obj
